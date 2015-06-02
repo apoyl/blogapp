@@ -116,6 +116,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		007B95071B1D4346006B080B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00E5C3771814CA5C00BE9280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00E5C37E1814CA5C00BE9280;
+			remoteInfo = blogapp;
+		};
+		007B95091B1D4347006B080B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00E5C3771814CA5C00BE9280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00E5C37E1814CA5C00BE9280;
+			remoteInfo = blogapp;
+		};
+		007B950B1B1D4367006B080B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00E5C3771814CA5C00BE9280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00E5C37E1814CA5C00BE9280;
+			remoteInfo = blogapp;
+		};
+		007B950D1B1D436E006B080B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00E5C3771814CA5C00BE9280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00E5C37E1814CA5C00BE9280;
+			remoteInfo = blogapp;
+		};
+		007B950F1B1D4378006B080B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00E5C3771814CA5C00BE9280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00E5C37E1814CA5C00BE9280;
+			remoteInfo = blogapp;
+		};
+		00CE52051B1D42290058CD44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00E5C3771814CA5C00BE9280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00E5C37E1814CA5C00BE9280;
+			remoteInfo = blogapp;
+		};
 		00E5C39F1814CA5C00BE9280 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 00E5C3771814CA5C00BE9280 /* Project object */;
@@ -651,6 +693,12 @@
 			);
 			dependencies = (
 				00E5C3A01814CA5C00BE9280 /* PBXTargetDependency */,
+				00CE52061B1D42290058CD44 /* PBXTargetDependency */,
+				007B95081B1D4346006B080B /* PBXTargetDependency */,
+				007B950A1B1D4347006B080B /* PBXTargetDependency */,
+				007B950C1B1D4367006B080B /* PBXTargetDependency */,
+				007B950E1B1D436E006B080B /* PBXTargetDependency */,
+				007B95101B1D4378006B080B /* PBXTargetDependency */,
 			);
 			name = blogappTests;
 			productName = scolappTests;
@@ -820,6 +868,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		007B95081B1D4346006B080B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00E5C37E1814CA5C00BE9280 /* blogapp */;
+			targetProxy = 007B95071B1D4346006B080B /* PBXContainerItemProxy */;
+		};
+		007B950A1B1D4347006B080B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00E5C37E1814CA5C00BE9280 /* blogapp */;
+			targetProxy = 007B95091B1D4347006B080B /* PBXContainerItemProxy */;
+		};
+		007B950C1B1D4367006B080B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00E5C37E1814CA5C00BE9280 /* blogapp */;
+			targetProxy = 007B950B1B1D4367006B080B /* PBXContainerItemProxy */;
+		};
+		007B950E1B1D436E006B080B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00E5C37E1814CA5C00BE9280 /* blogapp */;
+			targetProxy = 007B950D1B1D436E006B080B /* PBXContainerItemProxy */;
+		};
+		007B95101B1D4378006B080B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00E5C37E1814CA5C00BE9280 /* blogapp */;
+			targetProxy = 007B950F1B1D4378006B080B /* PBXContainerItemProxy */;
+		};
+		00CE52061B1D42290058CD44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00E5C37E1814CA5C00BE9280 /* blogapp */;
+			targetProxy = 00CE52051B1D42290058CD44 /* PBXContainerItemProxy */;
+		};
 		00E5C3A01814CA5C00BE9280 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 00E5C37E1814CA5C00BE9280 /* blogapp */;
@@ -943,21 +1021,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/scolapp.app/scolapp";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "scolapp/scolapp-Prefix.pch";
+				GCC_PREFIX_HEADER = "blogapp/blogapp-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "scolappTests/scolappTests-Info.plist";
+				INFOPLIST_FILE = "blogappTests/blogappTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blogapp.app/blogapp";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -966,17 +1043,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/scolapp.app/scolapp";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "scolapp/scolapp-Prefix.pch";
-				INFOPLIST_FILE = "scolappTests/scolappTests-Info.plist";
+				GCC_PREFIX_HEADER = "blogapp/blogapp-Prefix.pch";
+				INFOPLIST_FILE = "blogappTests/blogappTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blogapp.app/blogapp";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
