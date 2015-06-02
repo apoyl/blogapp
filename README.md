@@ -1,5 +1,5 @@
 # blogapp
-blogapp是基于iOS开发一个博文、评论博客客户端，供初学者学习！
+blogapp是基于iOS开发一个博文、评论博客客户端。
 
 ### blogapp预览
 ![图片预览](http://www.apoyl.com/wp-content/uploads/2015/06/1433216255153.gif)
