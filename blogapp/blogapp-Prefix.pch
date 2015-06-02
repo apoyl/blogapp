@@ -1,0 +1,31 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <MobileCoreServices/MobileCoreServices.h>
+
+//宏定义 信息
+//#define ListViewCellId @"ListViewCellId";
+//API
+
+#define api_base_url    @"http://www.apoyl.com/"
+#define api_terms_list  @"app/blogapi/public/wp/terms/list" //分类列表
+#define api_terms_cat   @"app/blogapi/public/wp/terms/cat" //指定分类获取文章列表
+#define api_posts_detail    @"app/blogapi/public/wp/posts/detail" //指定id 文章信息
+
+#endif
+
